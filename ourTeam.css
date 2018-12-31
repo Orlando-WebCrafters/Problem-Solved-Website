@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+html{
+    background-color: #34495e;
+}
+
+body{
+    padding-top: 10em;
+}
+
+.team-section{
+    overflow: hidden;
+    text-align: center;
+    background: #34495e;
+    padding: 60px;
+}
+
+.team-section h1{
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    color: white;
+    font-size: 40px;
+}
+
+.border{
+    display: block;
+    margin: auto;
+    width: 160px;
+    height: 3px;
+    background: #3498db;
+    margin-bottom: 40px;
+}
+
+.ps{
+    margin-bottom: 40px;
+}
+
+.ps a{
+    display: inline-block;
+    margin: 0 30px;
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.ps a img{
+    width: 100%;
+    filter: grayscale(100%);
+    transition: 0.4s all;
+}
+
+.ps a:hover > img{
+    filter: none;
+}
+
+.section{
+    width: 600px;
+    margin: auto;
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    height: 0;
+    overflow: hidden;
+}
+
+.section:target{
+    height: auto;
+}
+
+.name{
+    display: block;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.header{
+    z-index: 10;
+}
+
+.header ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: #e3e3e3;
+    position: relative;
+}
+
+.header li{
+    display: inline-block;
+}
+
+.header li a{
+    color: #292929;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+
+.header li:hover{
+    background: lightgray;
+}
+
+.header ul ul {
+    position: absolute;
+    min-width: 200px;
+    background: lightgray;
+    display: none;
+}
+
+.header ul ul li {
+    display: block;
+    background: #e3e3e3;
+}
+
+.header ul li:hover ul{
+    display: block;
+}
+
+.header ul li i{
+    color: #292929;
+    float: right;
+    padding-left: 20px;
+}
+
+.content {
+    z-index: 10;
+    width: 68%;
+    margin: 0 auto;
+    position: absolute;
+    top: 20%;
+    left: 16.75%;
+    transform: translate(0, -50%);
+}
+
+.content h1 {
+    font-family: Poppins;
+    font-size: 54px;
+    color: #101010;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.content p {
+    margin-top: 0;
+    text-align: left;
+    color: #101010;
+    font-weight: 400;
+}
